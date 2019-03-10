@@ -1,0 +1,26 @@
+body {
+  height: 100%;
+  display: grid;
+  padding: 1rem;
+}
+
+main {
+  margin: auto;
+}
+
+h1,
+main > p {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(50, 50, 50);
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+li {
+  line-height: 2rem;
+}
