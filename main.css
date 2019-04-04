@@ -1,7 +1,8 @@
 body {
 	height: 100%;
 	display: grid;
-	padding: 1rem;
+    padding: 1rem;
+    font-family: system-ui, serif;
 }
 
 main {
