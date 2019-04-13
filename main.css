@@ -1,8 +1,11 @@
 body {
-	height: 100%;
-	display: grid;
-    padding: 1rem;
-    font-family: system-ui, serif;
+	margin: 1rem auto;
+	max-width: 64em;
+	font-family: Georgia, serif;
+	line-height: 1.5;
+	padding: 4em 1em;
+	color: #333;
+	background-color: #f5ffee;
 }
 
 main {
@@ -15,7 +18,7 @@ main > p {
 }
 
 h1 {
-	color: rgb(50, 50, 50);
+	color: #444;
 }
 
 h2 {
@@ -24,8 +27,4 @@ h2 {
 
 li {
 	line-height: 2rem;
-}
-
-p {
-	line-height: 1.5;
 }
