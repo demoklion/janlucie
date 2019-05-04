@@ -28,3 +28,12 @@ h2 {
 li {
 	line-height: 2rem;
 }
+
+.fake-h3 {
+	font-size: 1.17em;
+	font-weight: bold;
+}
+
+.details-leading {
+	margin-bottom: 1rem;
+}
