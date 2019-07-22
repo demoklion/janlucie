@@ -70,3 +70,7 @@ a:hover {
 a:active {
 	color: #aac7fa;
 }
+
+.pl {
+	padding-left: 2rem;
+}
