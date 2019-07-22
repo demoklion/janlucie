@@ -1,11 +1,17 @@
 body {
 	margin: 1rem auto;
 	max-width: 64em;
-	font-family: Georgia, serif;
+	/* font-family: Georgia, serif; */
+	font-family: 'Fira Sans', sans-serif;
 	line-height: 1.5;
 	padding: 4em 1em;
-	color: #333;
-	background-color: #f5ffee;
+	color: #faf9dc;
+	background-color: #21352b;
+}
+
+b {
+	font-weight: 500;
+	color: #fad6aa;
 }
 
 main {
@@ -18,11 +24,14 @@ main > p {
 }
 
 h1 {
-	color: #444;
+	/*color: #ccc;*/
+	/* letter-spacing: 0.2rem; */
+	font-weight: 500;
 }
 
 h2 {
 	margin-top: 2rem;
+	font-weight: 500;
 }
 
 li {
@@ -31,9 +40,33 @@ li {
 
 .fake-h3 {
 	font-size: 1.17em;
-	font-weight: bold;
+	font-weight: 500;
+}
+
+h4 {
+	font-weight: 500;
 }
 
 .details-leading {
 	margin-bottom: 1rem;
+}
+
+a:link {
+	color: #aac7fa;
+}
+
+a:visited {
+	color: #7b90b5;
+}
+
+a:focus {
+	color: #7b90b5;
+}
+
+a:hover {
+	color: #6280b5;
+}
+
+a:active {
+	color: #aac7fa;
 }
